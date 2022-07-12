@@ -5,8 +5,8 @@ const assignment = {};
 
 /*Challenge - 1*/
 function sumOfNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
-   var array = [1, 2, 3, 4, 5];
+   
+  var array = [1, 2, 3, 4, 5];
     
     // Getting sum of numbers
     var sum = array.reduce(function(a, b){
@@ -22,14 +22,13 @@ function sumOfNumbers(arrayOfNumbers) {
  
  
 function countEvenNumbers(arrayOfNumbers) {
-    return arrayOfNumbers.length;
   var count = 0;
-	for(let i = 0 ; i < array.length; i++) {
-		if (array[i] % 2 === 0){
-			count++;
-		}
-	}
-	return count;
+  for ( var i = 0; i<arr.length; i++ ){ 
+    if (arr[i] % 2 == 0){
+      count++;
+    }
+  }
+  return count;
 }
 // assignment.countEvenNumbers = countEvenNumbers;
 
